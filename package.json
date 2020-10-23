@@ -1,0 +1,29 @@
+{
+  "name": "hyskydata",
+  "version": "0.0.1",
+  "description": "Quickly retrieve data from the Hypixel Skyblock API",
+  "main": "index.js",
+  "bin": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "index.js",
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollyon600/projectalphapackage.git"
+  },
+  "keywords": [
+    "hypixel",
+    "skyblock"
+  ],
+  "author": "apollyon600",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apollyon600/projectalphapackage/issues"
+  },
+  "homepage": "https://github.com/apollyon600/projectalphapackage#readme"
+}
