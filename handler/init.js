@@ -7,7 +7,7 @@ let methods = {
 }
 
 module.exports = {
-    version: "0.0.3",
+    version: "0.0.4",
     getSpecific: function(params) {
         if (!params) throw new TypeError(`Example: hyskydata.get(["ARRAY_OF_ITEMS"])`);
         return arbitrate('getSpecific', params);
