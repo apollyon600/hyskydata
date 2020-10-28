@@ -2,14 +2,18 @@
 const fetch = require('node-fetch');
 
 let methods = {
-    get: require('../library/get')
+    getSpecific: require('../library/getSpecific'),
+    getAll: require('../library/getAll')
 }
 
 module.exports = {
-    version: "0.0.1",
-    get: function(params) {
-        if (!params) throw new TypeError(`No params declared, try again!`);
-        return arbitrate('get', params);
+    version: "0.0.3",
+    getSpecific: function(params) {
+        if (!params) throw new TypeError(`Example: hyskydata.get(["ARRAY_OF_ITEMS"])`);
+        return arbitrate('getSpecific', params);
+    },
+    getAll: function() {
+        return arbitrate('getAll');
     }
 }
 

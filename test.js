@@ -1,3 +1,4 @@
-const alpha = require("./index.js");
+const hyskydata = require("./index.js");
 
-alpha.get({ needed: ["MADDOX_BATPHONE", "SHADOW_ASSASSIN_CHESTPLATE"] });
+// hyskydata.getAll();
+hyskydata.getAll()
